@@ -1,0 +1,243 @@
+.navbarbg {
+  height: 55px;
+  background-color: white;
+  padding-left: 120px;
+  border-bottom: 1px solid rgba(var(--b6a,219,219,219),1);
+}
+
+input.searche {
+  height: 36px;
+  max-width: 500px;
+  background-color: #eef3f8;
+  border: 0;
+}
+
+input.searche::placeholder {
+  padding-left: 20px;
+  background-image: url("/assets/search-solid.svg");
+  background-repeat: no-repeat;
+  background-size: 7%;
+  background-position: 1px 1px;
+  padding: auto;
+  background-position-x: left;
+}
+
+.body {
+  background-color: #f3f2ef;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin: 80px;
+}
+
+.menutext {
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: gray;
+  margin-top: 5px;
+  font-weight: lighter;
+}
+
+.menutext:hover {
+  color: black;
+}
+
+button.mediatext {
+  color: #5f5f5f;
+}
+
+button.mediatext:hover {
+  color: #5f5f5f;
+}
+
+.mediatext {
+  font-size: 15px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #5f5f5f;
+}
+
+i {
+  color: gray;
+  margin-top: 8px;
+}
+i:hover {
+  color: black;
+}
+
+input.content {
+  border-radius: 40px;
+  height: 45px;
+}
+input.content::placeholder {
+  font-weight: bolder;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url(/bootstraplinkedinclone/assets/edit-regular.svg);
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+div.card {
+  border-radius: 10px;
+}
+
+.header {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: bolder;
+}
+
+.view {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  color: #5f5f5f;
+}
+
+.categories {
+  font-size: 13px;
+  font-weight: bold;
+  color: #0a66c2;
+}
+
+li {
+  font-size: 14px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bold;
+}
+
+.link {
+  font-size: 12px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #5f5f5f;
+}
+
+button.ref {
+  color: white;
+}
+
+button.ref:hover {
+  color: #5f5f5f;
+}
+
+.postphoto {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+.posttext {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  margin-left: 8px;
+}
+.borderli{
+  border-radius: 10px;
+}
+.vr{
+  border-right: 1px solid rgba(var(--b6a,219,219,219),1) ;
+  height: 60px;
+}
+.link:hover{
+  background-color: #f3f2ef;
+  cursor: pointer;
+}
+.group-icon{
+  width: 16px;
+  height: 16px;
+}
+.left-bar:hover{
+  background-color: rgba(var(--b6a,219,219,219),1);
+  }
+.post-button{
+  border: 1px solid rgba(0,0,0, 0.1 );
+  border-radius: 25px;
+  height: 48px;
+  text-align: left;
+  padding-left: 16px;
+  font-size: 14px;
+  color: gray;
+  background-color: #fff;
+}
+.post-button:hover{
+  background-color: rgba(var(--b6a,219,219,219),1);
+  }
+.top-area-text{
+  font-size: 14px;
+  color: gray;
+  }
+  .top-area-text:hover{
+    background-color: rgba(var(--b6a,219,219,219),1);
+    }
+    .post-area{
+      border: none;
+      background-color: #fff;
+}
+.post-area:hover{
+  background-color: rgba(var(--b6a,219,219,219),1);;
+}
+
+.hr-button:focus{
+outline: none;
+}
+
+.link:hover{
+  color: blue;
+}
+.ellipses{
+  border: none;
+  background-color: white;
+
+}
+.ellipses:hover{
+  background-color: rgba(var(--b6a,219,219,219),1);
+  border-radius: 50px;
+
+}
+
+.img-link:hover{
+color: blue;
+}
+
+
+.img-bottom-button:hover{
+  background-color: rgba(var(--b6a,219,219,219),1);
+  
+}
+
+.right-panel-button{
+  width: 97px;
+  height: 32px;
+  border-radius: 20px;
+  border: 1px solid rgba(var(--b6a,219,219,219),1);
+  background-color: #ffffff;
+  color: #00000099;
+  
+
+}
+
+.right-panel-button:hover{
+  background-color: #00000014;
+}
+.right-panel-link:hover{
+  color: #0a66c2;
+}
+
+.left-bar{
+  position: sticky;
+  top: 80px;
+}
+
+.right-panel-card{
+  position: sticky;
+  top: 80px;
+}
+
+.messaging-link:hover{
+  background-color: #00000014;
+  border-radius: 25px;
+  
+}
